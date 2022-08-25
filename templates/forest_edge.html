@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'style.css')}}">
+    <title>Choose your own adventure!</title>
+</head>
+<body>
+    <div id="container">
+        <div id="story">
+            <p>
+                You crouch at the forest edge with terror gripping you. You hear distant howls and wind whistling through gnarled tree branches. The tavern door behind you explodes open, loosing the raucous sounds inside. The mob sounds angry.
+            </p>
+            <img src="/static/img/darktree.jpg" alt="darkforest">
+        </div>
+        <div>
+            <p>What will you do?!</p>
+        </div>
+        <div id="choices">
+            <a href="/intotheforest">You decide to conquer your fear, carefully placing one foot in front of the other as you slowly trek in to the menacing forest.</a>
+            <a href="/wait">You sit at the base of a burled oak tree, attempting to sink in to the shadows.</a>
+            <a href="/bouncer">You turn around and briskly walk back towards the tavern. A silhouette stands tall and still, slightly closer to you than it is to the tavern crowd.</a>
+        </div>
+    </div>
+</body>
+</html>

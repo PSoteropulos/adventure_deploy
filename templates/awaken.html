@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'style.css')}}">
+    <title>Choose your own adventure!</title>
+</head>
+<body>
+    <div id="container">
+        <div id="story">
+            <p>
+                You wake up in a tavern, surrounded by unfamiliar faces, candles light the room. The smell of beer, blood, and meat fills the air!
+            </p>
+            <img src="/static/img/tavern.jpg" alt="tavern">
+        </div>
+        <div>
+            <p>What will you do?!</p>
+        </div>
+        <div id="choices">
+            <a href="/pickfight">You decide to pick a fight with the largest bar patron.</a>
+            <a href="/leavetavern">Leave the tavern in to the dark, stormy night.</a>
+            <a href="/askbarmaid">You innocently ask the barmaid where, and who, you are.</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'style.css')}}">
+    <title>Choose your own adventure!</title>
+</head>
+<body>
+    <div id="container">
+        <div id="story">
+            <p>
+                You are immediately pierced to the bone by the dark, wet cold. The fog envelopes your vision as an icy rain pelts your skull. This is not a night to be adventuring.
+            </p>
+            <img src="/static/img/darknight.jpg" alt="darknight">
+        </div>
+        <div>
+            <p>What will you do?!</p>
+        </div>
+        <div id="choices">
+            <a href="/forest_edge">You reluctantly head towards a faintly glowing light near the forest's edge.</a>
+            <a href="/dagger">You know this is does not bode well, and having been sobered by reality, ready the dagger you have sheathed in your boot.</a>
+            <a href="/lantern">You "borrow" the lantern hanging outside the tavern, and stumble down the cobblestone road.</a>
+        </div>
+    </div>
+</body>
+</html>

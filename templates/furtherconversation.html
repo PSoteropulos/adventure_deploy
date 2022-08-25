@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'style.css')}}">
+    <title>Choose your own adventure!</title>
+</head>
+<body>
+    <div id="container">
+        <div id="story">
+            <p>
+                The barmaid is visibly shaking with rage. She jumps on to the bar whilst letting out what can only be described as a roar. The ground below you trembles. This is very, very bad.
+            </p>
+            <img src="/static/img/enraged.jpg" alt="enragedlady">
+        </div>
+        <div>
+            <p>What will you do?!</p>
+        </div>
+        <div id="choices">
+            <a href="/standground">You are not easily intimidated. You stand your ground.</a>
+            <a href="/doordart">You realize you have made many terrible choices recently, and you finally understand you need to escape immediately. You carefully calculate a clear and unobstructed path to the door, and dash like a shadow.</a>
+            <a href="/bouncer">You feel a massive sausage of a finger tap your shoulder, and begin to turn around.</a>
+        </div>
+    </div>
+</body>
+</html>

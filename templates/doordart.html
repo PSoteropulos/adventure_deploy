@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'style.css')}}">
+    <title>Choose your own adventure!</title>
+</head>
+<body>
+    <div id="container">
+        <div id="story">
+            <p>
+                You dart like an arrow between tables, chairs, patrons, and wooden pillars. The exit is two leaps away.
+            </p>
+            <img src="/static/img/door.webp" alt="door">
+        </div>
+        <div>
+            <p>What will you do?!</p>
+        </div>
+        <div id="choices">
+            <a style="width: 300px;" href="/pickfight">You miscalculate a step, and your body is immediately halted by a very large man as you displace his tankard. He does not look pleased.</a>
+            <a style="width: 300px;" href="/bouncer">A behemoth of a bald, expressionless man appears in the literal blink of an eye from nowhere. You juke left.</a>
+            <a style="width: 300px;" href="/bouncer">A behemoth of a bald, expressionless man appears in the literal blink of an eye from nowhere. You juke right.</a>
+            <a style="width: 300px;" href="/leavetavern">A behemoth of a bald, expressionless man appears in the literal blink of an eye from nowhere. You swiftly slide under and between his tree trunk legs.</a>
+        </div>
+    </div>
+</body>
+</html>

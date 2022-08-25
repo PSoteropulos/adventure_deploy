@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'style.css')}}">
+    <title>Choose your own adventure!</title>
+</head>
+<body>
+    <div id="container">
+        <div id="story">
+            <p>
+                Your gut churns with angst as your distance to the hooded figure closes. As you get closer you smell burning sage, and notice the rough hewn cloak is actually woven from vines and feathers. You notice  small totems and animal bones hanging from the cord tied around the hooded figure's waist. You feel electricity in the air as the hair on your arms stands straight. Ravens seem to float nearby the mystery person.
+            </p>
+            <img src="/static/img/shaman.jpg" alt="shaman">
+        </div>
+        <div>
+            <p>What will you do?!</p>
+        </div>
+        <div id="choices">
+            <a href="/dadjoke">You are paralyzed by fear, but decide to mutter a few words to break the tension. This is your way of offering a peaceful greeting. </a>
+            <a href="/demand">You face fear head on. You take charge and demand the figure identify themself and their intentions.</a>
+            <a href="/runaway">You have a terrible surge of terror and panic. You turn and run more quickly than you have ever moved in your life.</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'style.css')}}">
+    <title>Choose your own adventure!</title>
+</head>
+<body>
+    <div id="container">
+        <div id="story">
+            <p>
+                The now violent barmaid turns an unnatural shade of angry as she reminds you of your unspeakable behavior that includes, but is not limited to: property damage, public (accidental) urination, defamation, insulting multiple patrons, making advances at the taxidermist's wife, making advances at the taxidermied bear in the corner, and losing your own pants. 
+            </p>
+            <img src="/static/img/angryredhead.jpg" alt="angrylady">
+        </div>
+        <div>
+            <p>What will you do?!</p>
+        </div>
+        <div id="choices">
+            <a href="/furtherconversation">You calmy try to reason with the barmaid. She must be mistaken. You would never.</a>
+            <a href="/bouncer">You loudly and obnoxiously escalate further by insulting the barmaid's honor, garnering the attention of a grunt-like bouncer.</a>
+            <a href="/doordart">You realize you have made many terrible choices recently, and you finally understand you need to escape immediately.</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'style.css')}}">
+    <title>Choose your own adventure!</title>
+</head>
+<body>
+    <div id="container">
+        <div id="story">
+            <p>
+                Obviously irritated with your presence specificly, the barmaid demands you pay your tab and leave.
+            </p>
+            <img src="/static/img/barmaid.webp" alt="barmaid">
+        </div>
+        <div>
+            <p>What will you do?!</p>
+        </div>
+        <div id="choices">
+            <a href="/prybarmaid">You attempt to gently persuade the barmaid to remind you of your forgotten immediate history. </a>
+            <a href="/bouncer">You refuse to pay, garnering the attention of a grunt-like bouncer.</a>
+            <a href="/leavetavern">You don't remember what you did to agitate the barmaid, but you wisely pay your tab and leave.</a>
+        </div>
+    </div>
+</body>
+</html>

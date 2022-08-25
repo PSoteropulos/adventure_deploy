@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'style.css')}}">
+    <title>Choose your own adventure!</title>
+</head>
+<body>
+    <div id="container">
+        <div id="story">
+            <p>
+                The sun has risen in the sky, and the fog has all but lifted. A hooded figure with a staff appears from behind a tree in the forest. It appears they are beckoning you towards them.
+            </p>
+            <img src="/static/img/cloaked.webp" alt="cloakedfigure">
+        </div>
+        <div>
+            <p>What will you do?!</p>
+        </div>
+        <div id="choices">
+            <a href="/intotheforest">You know EXACTLY how this goes, and you refuse to embrace death after escaping so much so recently. You run along the forest edge, away from the figure.</a>
+            <a href="/approach">While ominous, you do not sense malice from the mysterious hooded figure. Against your better judgement you hesitantly walk towards the hooded figure.</a>
+            <a href="/bouncer">You turn around and briskly walk back towards the tavern. Even if they remain hostile, there is a better chance of survival amongst the crowd.</a>
+        </div>
+    </div>
+</body>
+</html>
